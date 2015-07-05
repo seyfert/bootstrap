@@ -42,14 +42,11 @@
   &.disabled,
   &[disabled],
   fieldset[disabled] & {
-    &,
     &:hover,
     &:focus,
-    &.focus,
-    &:active,
-    &.active {
-      background-color: @background;
-          border-color: @border;
+    &.focus {
+      background-color: $background;
+          border-color: $border;
     }
   }
 
